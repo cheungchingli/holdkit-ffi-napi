@@ -1,6 +1,6 @@
 {
   "name": "holdkit-ffi-napi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Anna Henningsen <anna@addaleax.net>",
   "contributors": [
@@ -25,6 +25,7 @@
     "node": ">=10"
   },
   "main": "./lib/ffi",
+  "types": "./lib/ffi.d.ts",
   "dependencies": {
     "debug": "^4.1.1",
     "get-uv-event-loop-napi-h": "^1.0.5",
